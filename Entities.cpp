@@ -94,7 +94,7 @@ void Entities::rotateNegZ(I3DEngine * myEngine, IModel * model, float frameTime)
 	if (myEngine->KeyHeld(Key_V))
 	{
 		model->RotateLocalZ((-kItemSpeed / 2)* frameTime);
-		rotZ -= ((-kItemSpeed / 2)* frameTime);
+		rotZ += ((-kItemSpeed / 2)* frameTime);
 	}
 }
 

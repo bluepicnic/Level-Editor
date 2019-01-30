@@ -5,4 +5,6 @@ using namespace tle;
 #define consts_h
 const float kItemSpeed = 50.0f;
 const float kCameraOffset = 10.0f;
+const float posTextloc = 0;
+const float rotTextloc = 650;
 #endif // consts_h
